@@ -19,7 +19,7 @@ function argv(configPath) {
 		.config(configFile)
 		.options({
 			closeAppOnCross: {
-				default: false,
+				default: true,
 				describe: 'Close the app when clicking the close (X) cross',
 				type: 'boolean',
 			},
