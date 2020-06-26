@@ -9,7 +9,7 @@
 Unofficial Microsoft Outlook client for Linux using [Electron](https://electronjs.org/).
 It uses the Web App and wraps it as a standalone application using Electron.
 
-**This is a fork of [teams-for-linux by IsmaelMartinez](https://github.com/IsmaelMartinez/teams-for-linux) to use Outlook instead of Teams.
+**This is a fork of [teams-for-linux by IsmaelMartinez](https://github.com/IsmaelMartinez/teams-for-linux) to use Outlook instead of Teams.**
 
 ## Downloads
 
