@@ -1,30 +1,21 @@
-# teams-for-linux
+![](https://img.shields.io/github/release/randykinne/outlook-for-linux.svg?style=flat)
+![](https://img.shields.io/github/downloads/randykinne/outlook-for-linux/total.svg?style=flat)
+![Build & Release](https://github.com/randykinne/outlook-for-linux/workflows/Build%20&%20Release/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a0be973a86a35f42ebee/maintainability)](https://codeclimate.com/github/randykinne/outlook-for-linux/maintainability)
 
-[![Gitter chat](https://badges.gitter.im/ismaelmartinez/teams-for-linux.png)](https://gitter.im/teams-for-linux/community "Gitter chat")
-![](https://img.shields.io/github/release/IsmaelMartinez/teams-for-linux.svg?style=flat)
-![](https://img.shields.io/github/downloads/IsmaelMartinez/teams-for-linux/total.svg?style=flat)
-![Build & Release](https://github.com/IsmaelMartinez/teams-for-linux/workflows/Build%20&%20Release/badge.svg)
-[![dependencies Status](https://david-dm.org/IsmaelMartinez/teams-for-linux/status.svg)](https://david-dm.org/IsmaelMartinez/teams-for-linux)
-[![devDependencies Status](https://david-dm.org/IsmaelMartinez/teams-for-linux/dev-status.svg)](https://david-dm.org/IsmaelMartinez/teams-for-linux?type=dev)
-[![Known Vulnerabilities](https://snyk.io//test/github/IsmaelMartinez/teams-for-linux/badge.svg?targetFile=package.json)](https://snyk.io//test/github/IsmaelMartinez/teams-for-linux?targetFile=package.json)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8954c6c7e85c4ab9b92aef9f54f22eab)](https://www.codacy.com/manual/IsmaelMartinez/teams-for-linux?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=IsmaelMartinez/teams-for-linux&amp;utm_campaign=Badge_Grade)
 
-Unofficial Microsoft Teams client for Linux using [Electron](https://electronjs.org/).
+# outlook-for-linux
+
+Unofficial Microsoft Outlook client for Linux using [Electron](https://electronjs.org/).
 It uses the Web App and wraps it as a standalone application using Electron.
+
+**This is a fork of [teams-for-linux by IsmaelMartinez](https://github.com/IsmaelMartinez/teams-for-linux) to use Outlook instead of Teams.
 
 ## Downloads
 
-Binaries available under https://github.com/IsmaelMartinez/teams-for-linux/releases for AppImage, rpm, deb, snap and tar.gz
+Binaries available under https://github.com/randykinne/outlook-for-linux/releases for AppImage, rpm, deb, snap and tar.gz
 
 In case of AppImage, we recommend to use [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) for the best desktop experience.
-
-Also available in:
-
-[![AUR: teams-for-linux](https://img.shields.io/badge/AUR-nheko-blue.svg)](https://aur.archlinux.org/packages/teams-for-linux)
-
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/teams-for-linux)
-
-<a href='https://flathub.org/apps/details/com.github.IsmaelMartinez.teams_for_linux'><img width='170' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
 ## Starting arguments
 
