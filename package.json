@@ -1,21 +1,21 @@
 {
-  "name": "teams-for-linux",
-  "version": "1.0.5",
+  "name": "outlook-for-linux",
+  "version": "1.0.0",
   "main": "app/index.js",
-  "description": "Unofficial client for Microsoft Teams for Linux",
-  "homepage": "https://github.com/IsmaelMartinez/teams-for-linux",
+  "description": "Unofficial Linux client for Microsoft Outlook",
+  "homepage": "https://github.com/randykinne/outlook-for-linux",
   "keywords": [
-    "Teams",
-    "Microsoft Teams"
+    "Outlook",
+    "Microsoft Outlook"
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/IsmaelMartinez/teams-for-linux"
+    "url": "git+ssh://github.com/randykinne/outlook-for-linux"
   },
   "author": {
-    "name": "Ismael Martinez",
-    "email": "ismaelmartinez@gmail.com",
-    "url": "https://github.com/IsmaelMartinez/"
+    "name": "Randy Kinne",
+    "email": "r27kinne@gmail.com",
+    "url": "https://github.com/randykinne/"
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "scripts": {
@@ -61,13 +61,13 @@
     "linux": {
       "category": "Chat;Network;Office",
       "packageCategory": "net",
-      "executableName": "teams-for-linux",
-      "synopsis": "Microsoft Teams for Linux",
-      "description": "Unofficial Microsoft Teams client for Linux using Electron. It uses the Web App and wraps it as a standalone application using Electron.",
+      "executableName": "outlook-for-linux",
+      "synopsis": "Microsoft Outlook for Linux",
+      "description": "Unofficial Microsoft Outlook client for Linux using Electron. It uses the Web App and wraps it as a standalone application using Electron.",
       "desktop": {
-        "Name": "Microsoft Teams for Linux",
-        "Comment": "Unofficial client for Microsoft Teams for Linux",
-        "StartupWMClass": "teams-for-linux"
+        "Name": "Microsoft Outlook for Linux",
+        "Comment": "Unofficial Linux client for Microsoft Outlook",
+        "StartupWMClass": "outlook-for-linux"
       },
       "target": [
         "rpm",
@@ -81,7 +81,7 @@
       }
     },
     "snap": {
-      "summary": "Teams for Linux",
+      "summary": "Outlook for Linux",
       "confinement": "strict",
       "grade": "stable",
       "environment": {
