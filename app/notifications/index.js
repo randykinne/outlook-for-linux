@@ -4,9 +4,9 @@ const NativeNotification = require('electron-native-notification');
 exports.addDesktopNotificationHack = function addDesktopNotificationHack(iconPath) {
 	ipcMain.on('notifications', async (e, msg) => {
 		if (msg.count > 0) {
-			const body = ((msg.text) ? `(${msg.count}): ${msg.text}` : `You got ${msg.count} notification(s)`);
+			const body = ((msg.text) ? `(${msg.count}): ${msg.text}` : `You have ${msg.count} notification(s)`);
 			const notification = new NativeNotification(
-				'Microsoft Teams',
+				'Microsoft Outlook',
 				{
 					body,
 					icon: iconPath,

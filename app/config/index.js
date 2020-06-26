@@ -39,8 +39,8 @@ function argv(configPath) {
 				type: 'boolean',
 			},
 			url: {
-				default: 'https://teams.microsoft.com/',
-				describe: 'Microsoft Teams URL',
+				default: 'https://outlook.office365.com',
+				describe: 'Microsoft Outlook URL',
 				type: 'string',
 			},
 			proxyServer: {
@@ -64,7 +64,7 @@ function argv(configPath) {
 				type: 'boolean',
 			},
 			partition: {
-				default: 'persist:teams-4-linux',
+				default: 'persist:outlook-4-linux',
 				describe: 'BrowserWindow webpreferences partition',
 				type: 'string',
 			},
