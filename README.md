@@ -1,6 +1,6 @@
 ![](https://img.shields.io/github/release/randykinne/outlook-for-linux.svg?style=flat)
 ![](https://img.shields.io/github/downloads/randykinne/outlook-for-linux/total.svg?style=flat)
-![Build & Release](https://github.com/randykinne/outlook-for-linux/workflows/Build%20&%20Release/badge.svg)
+![Build](https://github.com/randykinne/outlook-for-linux/workflows/Build%20&%20Release/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a0be973a86a35f42ebee/maintainability)](https://codeclimate.com/github/randykinne/outlook-for-linux/maintainability)
 
 
